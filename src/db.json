@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "LECTURE FULL STACK",
+      "day": "20 Dec 10:30AM",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "LECTURE ASP.NET",
+      "day": "21 Dec 1:00 PM",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "LECTURE ML",
+      "day": "23 Dec 10:30AM",
+      "reminder": true
+    },
+    {
+      "id": 4,
+      "text": "LECTURE PHP",
+      "day": "20 Dec 1:30PM",
+      "reminder": false
+    },
+    {
+      "id": 5,
+      "text": "LECTURE DESIGN PATTERN",
+      "day": "22 Dec 1:00PM",
+      "reminder": true
+    }
+  ]
+}
