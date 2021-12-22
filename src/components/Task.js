@@ -1,6 +1,10 @@
 import { FaTimes } from "react-icons/fa";
+import { Context } from '../data/context';
+
 
 const Task = ({ task, onDelete, onToggle }) => {
+   const { setTask } = useContext(Context)
+   
   return (
     <div
       className={`task ${task.reminder && "reminder"}`}
