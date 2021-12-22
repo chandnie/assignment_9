@@ -1,6 +1,11 @@
 import Task from "./Task";
+import { Context } from '../data/context';
+
 
 const Tasks = ({ tasks, onDelete, onToggle }) => {
+  
+  const { task } = useContext(Context)
+      
   return (
     <>
       {tasks.map((task, index) => (
